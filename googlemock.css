@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    
+
+}
+img{
+   padding-top: 100px; 
+}
+
+#searchbar{
+    height: 30px;
+    min-width: 550px;
+    font-size: 26px;
+    border-color: lightskyblue;
+    border-width: thin;
+    padding: 10px;
+    
+}
+.button{
+    background-color: #e5f7ff;
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+    color: gray;
+    padding: 10px;
+}
+    
+/* /* .button{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #EFFAF3;
+    border: 1px solid #EFFAF3; 
+} */
+
+#button1{
+    
+}

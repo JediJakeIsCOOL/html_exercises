@@ -1,0 +1,18 @@
+body{
+    
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 20px;
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+p{
+    padding: 8px;
+    line-height: 1.6;
+    opacity: 20%;
+}
+.images{
+    width: 800px;
+    margin-bottom: 50px;
+}
