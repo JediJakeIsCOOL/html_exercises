@@ -1,0 +1,26 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    display: flex;
+    flex-direction: row wrap;
+    background-color: blue;
+    height:10%;
+    
+}
+.column1{
+    display: flex;
+    flex-direction: column wrap;
+    height: 60%;
+    background-color: blueviolet;
+    width: 20%;
+    margin: 15px;
+}
+.column2{
+    display: flex;
+    flex-direction: column wrap;
+    background-color: darkgreen;
+    justify-content: flex-end;
+    
+}

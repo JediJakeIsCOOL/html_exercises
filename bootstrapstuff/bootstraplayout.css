@@ -1,0 +1,50 @@
+a{
+    margin: auto;
+    margin-top: 10px;
+}
+p{
+    margin: auto;
+    margin-top: 10px;
+}
+hr {
+    
+    height: 4px;
+    /* border: 1; */
+    border-top: 4px solid rgb(0, 0, 0);
+    margin: 1em 0;
+    padding: 0;
+    
+}
+p.bigtext{
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+    word-spacing: 10px;
+    padding: 50px
+
+}
+p.bigtext2{
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+    padding-bottom: 15px;
+    margin: 10px;
+}
+.lists{
+    margin: 5px;
+    margin-left: 10%;
+}
+img{
+    display: flex;
+    align-items: center;
+    
+    margin-left: 30%;
+
+}
+.awesome2{
+    margin-left: 50%;
+}
+
+.awesome1{
+    margin-left: 10%
+}

@@ -1,0 +1,42 @@
+.d1{
+    position: absolute;
+    width: 33.33%;
+    height: 33.33%;
+    background-color: palegreen;
+}
+.d2{
+    position: absolute;
+    width: 33.33%;
+    height: 33.33%;
+    background-color: rgb(152, 192, 251);
+    left: 33.33%
+}
+.d3{
+position: absolute;
+    width: 33.33%;
+    height: 33.33%;
+    left: 66.33%;
+    background-color: rgb(230, 163, 40);
+}
+.d4{
+    position: absolute;
+    width: 33.33%;
+    height: 33.33%;
+    top: 33.33%;
+    background-color: rgb(63, 7, 33);
+}
+.d5{
+    position: absolute;
+    width: 33.33%;
+    height: 33.33%;
+    left: 33.33%;
+    top: 33.33%;
+    background-color: orangered
+}
+.d7{
+    position: absolute;
+    width: 33.33%;
+    height: 33.33%;
+    top: 66.33%;
+    background-color: mediumvioletred
+}

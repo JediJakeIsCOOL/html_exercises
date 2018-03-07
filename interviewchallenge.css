@@ -1,0 +1,72 @@
+.square{
+    width: 0;
+  height: 0;
+  border-left: 50px solid red;
+  border-right: 50px solid red;
+  border-bottom: 50px solid red;
+  border-top: 50px solid red;
+}
+.rectangle{
+    width: 0;
+  height: 0;
+  border-left: 100px solid red;
+  border-right: 100px solid red;
+  border-bottom: 50px solid red;
+  border-top: 50px solid red;
+}
+.oval{
+    width: 0;
+  height: 0;
+  border-left: 75px solid red;
+  border-right: 75px solid red;
+  border-bottom: 50px solid red;
+  border-top: 50px solid red;
+  border-radius: 100px;
+
+}
+.circle{
+    width: 0;
+  height: 0;
+  border-left: 50px solid red;
+  border-right: 50px solid red;
+  border-bottom: 50px solid red;
+  border-top: 50px solid red;
+  border-radius: 50px
+}
+.triangle_down{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid red;
+}
+.triangle_left{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid red;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+
+}
+.right_triangle{
+    width: 0;
+    height: 0;
+    border-left: 50px solid red;
+    border-right: 50px solid transparent;
+    border-top: 50px solid transparent; */
+}
+.trapezoid{
+
+  height: 0;
+  width: 50px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 100px solid red;
+  float: left;
+}
+.pacman{
+  width: 0;
+  height: 0;
+  
+}

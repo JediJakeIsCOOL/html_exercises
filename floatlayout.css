@@ -1,0 +1,32 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    float: none;
+    background-color: gray;
+    min-width: 100%;
+    color: white;
+    height: 10%;
+}
+.column1{
+    float: left;
+    background-color: springgreen;
+    height: 70%;
+    margin: 10px;
+    width: 30%;
+}
+.column2{
+    float: right;
+    background-color: salmon;
+    margin: 10px;
+    width: 63%;
+    height: 70%;
+}
+.footer{
+    float: right;
+    width: 100%;
+    background-color: black;
+    height: 10%;
+}

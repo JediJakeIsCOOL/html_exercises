@@ -1,0 +1,20 @@
+#absolute{
+    position: absolute;
+    background-color: chartreuse;
+    min-height: 100%;
+    width: 20%;
+}
+#absolute80{
+    background-color: aqua;
+    width: 60%;
+    position: absolute;
+    left:200px;
+    min-height: 100%;
+}
+#right{
+    min-height: 100%;
+    background-color: red;
+    position: absolute;
+    left: 775px;
+    width: 20%;
+}

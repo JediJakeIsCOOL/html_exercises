@@ -1,0 +1,1 @@
+var pol = prompt("What do you do?")
