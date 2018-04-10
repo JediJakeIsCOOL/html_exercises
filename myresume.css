@@ -1,0 +1,16 @@
+body{
+    /* background-color: black; */
+}
+.container{
+    margin: 0 auto;
+    background-color: black;
+    max-width: 820px;
+}
+.img_round{
+    border-radius: 100%;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

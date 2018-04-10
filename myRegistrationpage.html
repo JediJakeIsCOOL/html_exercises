@@ -10,30 +10,32 @@
     
 </head>
 <body>
-    <form>
+    <form id ='login'>
         <div class="form-group">
             <label for="name">First Name</label>
-            <input type="firstname" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter first name">
+            <input type="firstname" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter first name" required>
           </div>
         <div class="form-group">
             <label for="lastName">Last name</label>
-            <input type="lastName" class="form-control" id="lastName" aria-describedby="lastNameHelp" placeholder="Enter last name">
+            <input type="lastName" class="form-control" id="lastName" aria-describedby="lastNameHelp" placeholder="Enter last name" required>
           </div>
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
         </div>
-        <button type="submit" class="btn btn-primary">Login</button>
+        <button id="sumbit button" type="submit" class="btn btn-primary">Login</button>
       </form>
 
-
-    <script src="myRegistrationpage.js"></script>
-    <script src="JavaScript101/scripts/jQueryDoc.js"></script>
+      <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script> 
+    <script src="JavaScript101/scripts/myRegistrationpage.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>

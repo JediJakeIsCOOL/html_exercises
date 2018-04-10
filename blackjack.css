@@ -16,7 +16,7 @@ label{
 
 .points{
     position: relative;
-    right: 15%;
+    right: 10%;
     
 }
 .hand{
@@ -39,3 +39,8 @@ label{
 #player-cards{
     display: inline;
 }
+#dealer-name{
+    margin-top: 10%;
+    
+}
+    

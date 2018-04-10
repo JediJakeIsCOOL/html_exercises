@@ -9,4 +9,4 @@ navItems.forEach(function (nav) {
     event.preventDefault();
     imgTarget.setAttribute('src', nav.getAttribute('href'));
   })
-});
+})

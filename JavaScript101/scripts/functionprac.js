@@ -196,3 +196,28 @@
 
 
 
+// var animals = [
+//     {name: 'fluffykins', species: 'rabbit'},
+//     {name: 'caro', species: 'dog'},
+//     {name: 'hamil', species: 'dog'},
+// ]
+//  var dogs = animals.filter(function(wee){
+//      return wee.name === 'fluffykins' || wee.name === 'caro'
+//  })
+//  console.log(dogs)
+
+
+// var animals = [
+//     {name: 'fluffykins', species: 'rabbit'},
+//     {name: 'caro', species: 'dog'},
+//     {name: 'hamil', species: 'dog'},
+// ]
+//  var dogs = animals.map(function(wee){
+//      return wee.species
+//  })
+//  console.log(dogs)
+var i = 0
+do {
+    alert(i);
+    i++
+} while (i < 10 )

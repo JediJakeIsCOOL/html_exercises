@@ -141,6 +141,10 @@ console.log(deck)
 var myHand = new Hand()
 var dealerHand = new Hand()
 
+document.getElementById("hit-button").disabled = true;
+document.getElementById("stand-button").disabled = true;
+document.getElementById('play-button').disabled = true;
+
 //hit function
 document.getElementById("hit-button").addEventListener("click", function(){
     var newImages = deck.draw()
@@ -156,12 +160,14 @@ document.getElementById("hit-button").addEventListener("click", function(){
     
     document.getElementById('player-points').innerHTML = myHand.getPoints()
     Checkpoint()
-    if (myHand.getPoints() === 'Player Busts' || myHand.getPoints() === 'Player Wins!'){
+    if (myHand.getPoints() >= 21){
         document.getElementById("stand-button").disabled = true;
         document.getElementById("hit-button").disabled = true;
-
     }
-    
+    if (myHand.getPoints === dealerHand.getPoints && dealerHand.getPoints >= 17){
+        
+    }
+    //if the player hits and ties the dealer while dealer is greater than 17 then its a tie
 })
 //stand button starts dealer hits
 document.getElementById("stand-button").addEventListener("click", function(){
@@ -233,28 +239,16 @@ document.getElementById("deal-button").addEventListener("click", function(){
     document.getElementById('player-points').innerHTML = myHand.getPoints()
 
     document.getElementById("deal-button").disabled = true;
+    document.getElementById("hit-button").disabled = false;
+    document.getElementById("stand-button").disabled = false;
+    document.getElementById('play-button').disabled = false;
     Checkpoint()
 })
-
+//play again button
 document.getElementById("play-button").addEventListener("click", function(){
     window.location.reload()
-    // myHand.score = 0
-    // dealerHand.score = 0
-
-    // document.getElementById('player-points').innerHTML = myHand.getPoints()
-    // document.getElementById('dealer-points').innerHTML = dealerHand.getPoints()
-    
-    // document.getElementById("hit-button").disabled = false;
-    // document.getElementById("deal-button").disabled = false;
-    // document.getElementById("stand-button").disabled = false;
-
-    // document.getElementById('player-cards')
-    // myHand = []
-    // dealerHand = []
-    // navContainer.removeChild(imageElement)
-    // navContainer.removeChild(imageElement2)
-    // navContainer.removeChild(imageElement3)
-    // navContainer.removeChild(imageElement4)
 })
 
-//need to remove each image somehow
+
+//need something that checks if u both win in a draw
+//need to stop the hit if hitter gets 21 or busts
