@@ -1,14 +1,107 @@
 body{
-    background-color: #bdbfc1
+    background-color:#1f2625
 }
 .navbar{
-    background: grey
+    background-color: #234466;
+    text-decoration: none !important;
+    border: white 2px solid;
+   
+    
+    
 }
 .imgSkills{
     height: 100px;
     width: 100px;
+    display: block;
+    margin: auto;
 }
 .mypic{
     width: 200px;
     height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.bio{
+    background: #234466;
+    margin-bottom: 50px;
+}
+.skills{
+    background: #234466;
+    margin-bottom: 50px;
+    
+}
+.projects{
+    background:#234466;
+    margin-bottom: 50px;
+
+}
+#projects, #contact-title{
+    display: flex;
+    justify-content: center;
+}
+
+.projImg{
+    height: 300px;
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.projP{
+    display: flex;
+    justify-content: center;
+    
+}
+.projT{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #e5d5f2;
+    
+}
+.contact-info{
+    background: #234466;
+    display: block;
+    margin: auto;
+}
+.cImg{
+    width: 200px;
+    height: 100px
+}
+body{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+
+}
+.bjmain{
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+}
+.bjtitle{
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+}
+.activityfinder{
+    margin-top: 100px;
+    max-width:100%;
+    max-height:100%;
+    display: block;
+    margin: auto;
+}
+.activity-title{
+    max-width: 25%;
+    max-height: 25%;
+    display: block;
+    margin: auto;
+}
+.nav{
+    text-decoration: none !important;
+    color: white;
+    display: block;
+    margin: auto;
+   
 }
