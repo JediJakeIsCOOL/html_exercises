@@ -24,16 +24,16 @@ body{
 
 .bio{
     background: #234466;
-    margin-bottom: 50px;
+    
 }
 .skills{
     background: #234466;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     
 }
 .projects{
     background:#234466;
-    margin-bottom: 50px;
+   
 
 }
 #projects, #contact-title{
@@ -61,13 +61,15 @@ body{
     
 }
 .contact-info{
-    background: #234466;
+    background-color: #234466;
     display: block;
     margin: auto;
+
 }
 .cImg{
-    width: 200px;
-    height: 100px
+    display: block;
+    margin: auto;
+    
 }
 body{
     color: white;
@@ -78,12 +80,17 @@ body{
 .bjmain{
     display: block;
     margin: auto;
-    margin-top: 75px;
+    margin: 25 0 25 0;
+    max-width: 80%;
+    background-color: #1f2625
 }
 .bjtitle{
     display: block;
     margin: auto;
     margin-top: 75px;
+    margin-bottom: 20px;
+    width: 150px;
+    
 }
 .activityfinder{
     margin-top: 100px;
@@ -101,7 +108,51 @@ body{
 .nav{
     text-decoration: none !important;
     color: white;
-    display: block;
-    margin: auto;
+    display: inline-block;
+    margin-left: 40px
    
 }
+.email{
+    display: flex;
+    justify-content: center;
+}
+.blackjack{
+    background-color: #234466;
+}
+.blackjackBio{
+    background-color: #234466;
+
+}
+.summaryTitle{
+    display: flex;
+    justify-content: center;
+}
+.bj1{
+    max-width: 100%;
+    margin-bottom: 20px;
+
+}
+.projBio{
+    margin-top: 20px;
+    background-color: #1f2625;
+    padding: 10px;
+}
+.bj2{
+    max-width: 100%;
+    padding: 10px;
+}
+.afmain{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 80%;
+    height: 600px;
+    background-color: #1f2625
+}
+#text{
+    display:flex;
+    justify-content: center;
+    
+}
+

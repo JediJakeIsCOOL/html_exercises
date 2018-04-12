@@ -12,20 +12,55 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     
-    <nav class="navbar fixed-top">
-        <a d href="../index.html">Home</a>
-        <a d href="#skillsLink">Skills</a>
-        <a d href="#projectsLink">Projects</a>
-        <a d href="#contact-infoLink">Contact</a>
-        <a d href="#resumeLink">Resume</a>
+    <nav class="navbar fixed-top" style="font-family: Arial, Helvetica, sans-serif;">
+        <a class="nav" href="../index.html">Home</a>
+        
         </nav>
-    <div class="container-fluid blackjack">
-            <img class='bjtitle' src="../images/blackjackmain.png">
+        <img class='bjtitle' src="../images/blackjackmain.png">
+    <div class="container blackjack">
+            
             <div class="row">
                 
                 <img class= 'bjmain' src="../images/blackjack.png">
             </div>
     </div>
+    <h1 class="summaryTitle">Project Summary</h1>
+    <div class="container blackjackBio">
+        <div class="row">
+            <div class="col">
+                <p class="projBio">This BlackJack application was created using HTML, CSS, and Object oriented JavaScript.  Being a new developer and trying to get some of the methods and objects to work together was quite a challenge but yielded good experience. The game works as classic blackjack does.  The cards are dealt and then the player is given an option to hit or stand.  If the player "stands", the dealers sequence of cards are dealt out and the dealer gets cards until they are at 17 or higher in points. Having higher points than the dealer when the dealer is done getting cards or the dealer has busted, results in a victory for the player. Likewise if the players points exceed 21 points then the player busts and it's the dealers victory. Any results in the application leading to the dealer or players victory removes all button usage except "play again".</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <img class='bj1'src="../images/blackjack1.png">
+            </div>
+       
+                <div class="col-6">
+                    <img class='bj1'src="../images/blackjack2.png">
+                </div>
+
+        </div>
+    </div>
+    <h1 class="summaryTitle">Interesting Code Used</h1>
+    <div class='container blackjackBio'>
+        <div class="row">
+            <div class="col-6">
+                <p class="projBio">Here we have a method .getImageURL being created in the Card class. This function allowed me to assign each of the images that were used for my deck of cards a value.  That assigned value was then able to be randomly picked and the image associated to that value would then appear on the screen. </p>
+                </div>
+            <div class="col-6">
+                <img class ="bj2" src="../images/blackjackcode1.png">
+            </div>
+            </div>
+        <div class="row">
+                <div class="col-6">
+                    <p class="projBio">This is the while loop that was created in order to finish out the dealers hand after the player has decided to "stand". Using the DOM to inject the images into the proper 'div' in the HTML, random cards would be added and the points associated with those random cards that were drawn would be added to the dealer points variable.  The cards are added until the certain requirements of the loop are met, then the loop will break.</p></div>
+                    
+                <div class="col-6">
+                    <img class="bj2" src="../images/blackjackcode2.png">
+                </div>
+        </div>
+
        
     
 

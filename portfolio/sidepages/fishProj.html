@@ -12,40 +12,76 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     
-    <nav class="navbar fixed-top">
-        <a href="../index.html">Home</a>
-        <a href="#skillsLink">Skills</a>
-        <a href="#projectsLink">Projects</a>
-        <a href="#contact-infoLink">Contact</a>
-        <a href="#resumeLink">Resume</a>
+    <nav class="navbar fixed-top" style="font-family: Arial, Helvetica, sans-serif;">
+        <a class="nav" href="../index.html">Home</a>
+        <!-- <a class="nav" href="#skillsLink">Skills</a>
+        <a class="nav" href="#projectsLink">Projects</a>
+        <a class="nav" href="#contact-infoLink">Contact</a>
+        <a class="nav" href="#resumeLink">Resume</a> -->
         </nav>
-        <div class="container-fluid fishweb">
-               <h1 class="projT" style="margin-top: 100px; font-size: 4em;">Fish Website</h1>
+        <h1 class="projT" style="margin-top: 100px; font-size: 4em;">Fish Website</h1>
+        <div class="container blackjack">
+            
                 <div class="row">
-                    <div class="col">
-                            <img class= 'activityfinder' src="../images/fishwebsite.png">
-                        </div>
-                        </div>
+                    
+                    <img class= 'bjmain' src="../images/fishwebsite.png">
                 </div>
-                          
-              
+        </div>
+        <h1 class="summaryTitle">Project Summary</h1>
+        <div class="container blackjackBio">
+            <div class="row">
+                <div class="col">
+                    <p class="projBio">This fish website was made using HTML, CSS, JavaScript, Node.js, and EJS for templating. The EJS templating allowed me to create multiple pages with the same outline but different information and images on each one of them. The projects purpose was to get some backend development experience. I used node.js and the express library in order to create a configuration page for the app. JSON files were used as the placeholder database. Then we used Embedded JavaScript(ejs) in order to create templating pages. The chat and the feedback page that was implemented into the website was made using the socket.io library module. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img class='bj1'src="../images/fish1.png">
+                </div>
+           
+                    <div class="col-6">
+                        <img class='bj1'src="../images/fish2.png">
+                    </div>
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src=""></script>
-</body>
-</html>
+            </div>
+        </div>
+        <h1 class="summaryTitle">Interesting Code Used</h1>
+        <div class='container blackjackBio'>
+            <div class="row">
+                <div class="col-6">
+                    <p class="projBio">This is the configuation page and the beauty of Node.JS and the express library. This configuration page allows me to load all the modules and libaries I need for the application I am creating.  It also links me to each subsequent page that will be created for the application. The local server is created and then I was able to see changes on our web app through localhosting. Using the socket.io library I was able to make a direct communication line from the front-end to the back-end, allowing chat features. </p>
+                    </div>
+                <div class="col-6">
+                    <img class ="bj2" src="../images/fishcode1.png">
+                </div>
+                </div>
+            <div class="row">
+                    <div class="col-6">
+                        <p class="projBio">Each of the pages of my web application has a route page.  This is an example of one of my routes for a page that displayed bluegill information. I created a function to update my JSON database with a forloop. If the data was labeled a specific name, then the fields would be populated  with the specific fish's information. These routes take advantage of the express libaries .router method. This allows us to link this page to the main configuration page.</p></div>
+                        
+                    <div class="col-6">
+                        <img class="bj2" src="../images/fishcode2.png">
+                    </div>
+            </div>
+    
+           
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <script src=""></script>
+    </body>
+    </html>
